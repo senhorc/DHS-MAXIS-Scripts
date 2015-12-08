@@ -1,3 +1,7 @@
+MsgBox "Your agency is still using the beta branch! Alpha users were sent instructions to update branch references multiple times over the last month. If you are still seeing this, confirm an alpha user for your agency switched you over to either the release or master branches. ALL SCRIPTS IN THIS BRANCH WILL BE SHUT OFF BY DECEMBER 11, 2015." & vbNewLine & vbNewLine & _
+	"If your alpha user was certain this work was done, have them email Veronica Cary ASAP. The script will now stop."
+stopscript
+
 'STATS GATHERING----------------------------------------------------------------------------------------------------
 name_of_script = "NAV - OTHER NOTES MAIN MENU.vbs"
 start_time = timer
